@@ -1,8 +1,35 @@
-<!-- <section>
-    <div class="container">
-        <h1>Тільки найкращі букети</h1>
-    <p>Цілодобова доставка</p>
-    <button>Обрати букет</button>
+<section class="hero-section">
+    <div class="hero-wrapper ">
+        <div class="hero-info ">
+            <h1 class="hero-title">Тільки найкращі букети!</h1>
+            <p class="hero-text">Цілодобова доставка краси</p>
+            <button class="hero-btn">Обрати букет</button></div>
+        
+            <div>
+                <picture>
+                    <!-- Мобільна версія -->
+                    <source 
+                      srcset="./img/hero/hero-mobile@2x.webp 2x, ./img/hero/hero-mobile.webp 1x" 
+                      media="(max-width: 767px)" 
+                      width="320" height="199">
+                    
+                    <!-- Планшетна версія -->
+                    <source 
+                      srcset="./img/hero/hero-tablet@2x.webp 2x, ./img/hero/hero-tablet.webp 1x" 
+                      media="(min-width: 768px) and (max-width: 1439px)"
+                      width="426" height="400">
+                    
+                    <!-- Десктопна версія -->
+                    <img 
+                      src="./img/hero/hero-desktop.webp" 
+                      srcset="./img/hero/hero-desktop.webp 1x, ./img/hero/hero-desktop@2x.webp 2x" 
+                      width="948" height="469" 
+                      alt="flower" 
+                      loading="lazy" 
+                      decoding="async">
+                  </picture>
+            </div>
     </div>
     
-</section> -->
+    
+</section>
